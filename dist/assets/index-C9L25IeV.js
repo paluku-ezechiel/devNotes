@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./src-CFHA2lwI.js";t((()=>{e(),n();var t=document.querySelector(`#logo`),r=document.querySelector(`aside`);t.addEventListener(`click`,e=>{r.classList.toggle(`open`),e.stopPropagation()}),document.addEventListener(`click`,e=>{r.classList.contains(`open`)&&!r.contains(e.target)&&r.classList.remove(`open`)})}))();
