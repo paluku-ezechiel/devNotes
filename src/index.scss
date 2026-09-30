@@ -1,1 +1,55 @@
+@use "./assets/styles/media-queries" as *;
 
+.logo a {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bell-image {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.bell-image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.search {
+  border: 1px solid var(--divider);
+  padding: 0.5rem;
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 3rem;
+  background-color: var(--hint);
+  input {
+    border: none;
+    padding: 0.5rem;
+    outline: none;
+    background-color: transparent;
+    font-size: 2rem;
+    color: var(--divider);
+    &::placeholder {
+      color: var(--divider);
+    }
+  }
+
+  i {
+    color: whitesmoke;
+  }
+
+  @include xs {
+    display: none;
+  }
+}

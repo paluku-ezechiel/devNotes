@@ -17,7 +17,23 @@
   </head>
   <body>
     <main class="container">
-      <header>HEADER</header>
+      <header class="content-header">
+        <div class="logo" id="logo">
+          <i class="fa-solid fa-bars"></i>
+          <a href="#">DevNotes</a>
+        </div>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass fa-1x"></i>
+          <input type="text" placeholder="Rechercher une note..." />
+        </div>
+        <div class="bell-image">
+          <i class="fa-regular fa-bell fa-2x" style="color: white"></i>
+          <img
+            src="./assets/images/ezechiel-image.jpeg"
+            alt="image du profile"
+          />
+        </div>
+      </header>
       <aside>
         <div class="aside-content">
           <i
@@ -27,11 +43,22 @@
           <a href="#" class="devNotes">Dashboard</a>
         </div>
         <div class="aside-content">
-          <i class="fa-solid fa-table-list" style="color: white; font-size: 2.5rem"></i>
-          <a href="#" class="ajoutNotes">Nouvelle note</a>
+          <i
+            class="fa-solid fa-table-list"
+            style="color: white; font-size: 2.5rem"
+          ></i>
+          <a href="./form/form.html" class="ajoutNotes">Nouvelle note</a>
+        </div>
+
+        <div class="aside-content">
+          <i
+            class="fa-solid fa-book-open"
+            style="color: white; font-size: 2.5rem"
+          ></i>
+          <a href="#" class="ajoutNotes">Afficher note</a>
         </div>
       </aside>
-      <article>ARTICLE</article>
+      <article class="article">ARTICLE</article>
       <footer>Footer</footer>
     </main>
     <script type="module" src="./index.js"></script>
