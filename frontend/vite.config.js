@@ -9,6 +9,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "src/index.html"),
         form: resolve(__dirname, "src/form/form.html"),
+        liste: resolve(__dirname, "src/listes/liste.html"),
       },
     },
   },
