@@ -47,6 +47,17 @@ main.container {
         }
       }
     }
+
+    .users-image {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      span {
+        font-size: 2rem;
+        color: white;
+        font-weight: 700;
+      }
+    }
   }
 
   aside {
@@ -78,10 +89,6 @@ main.container {
         transform: translateX(0);
       }
     }
-
-    // @include xs {
-    //   display: none;
-    // }
   }
 
   .devNotes {
@@ -116,14 +123,20 @@ main.container {
       display: flex;
       flex-direction: column;
       gap: 2rem;
-      // &:hover {
-      //   background-color: transparent;
-      // }
     }
   }
 
   article {
     grid-area: article;
+    padding: 2rem;
+
+    // rendre le liste flexible
+    .articles-content {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 3rem;
+    }
   }
 
   footer {
