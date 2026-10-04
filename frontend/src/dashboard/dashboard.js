@@ -1,5 +1,5 @@
-import "./assets/styles/styles.scss";
-import "./index.scss";
+import "../assets/styles/styles.scss";
+import "./dashboard.scss";
 
 const logo = document.querySelector("#logo");
 const asideMenu = document.querySelector("aside");
