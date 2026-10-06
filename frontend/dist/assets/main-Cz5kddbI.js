@@ -1,1 +1,0 @@
-import{n as e,r as t,t as n}from"./styles-vaJypcC2.js";var r=t((()=>{}));e((()=>{n(),r();var e=document.querySelector(`#btn-primary`);e&&e.addEventListener(`click`,e=>{e.preventDefault(),location.assign(`/dashboard/dashboard.html`)})}))();

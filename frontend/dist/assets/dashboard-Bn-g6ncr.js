@@ -1,1 +1,0 @@
-import{n as e,t}from"./styles-vaJypcC2.js";import{t as n}from"./dashboard-Au5O_P7R.js";e((()=>{t(),n();var e=document.querySelector(`#logo`),r=document.querySelector(`aside`);e.addEventListener(`click`,e=>{r.classList.toggle(`open`),e.stopPropagation()}),document.addEventListener(`click`,e=>{r.classList.contains(`open`)&&!r.contains(e.target)&&r.classList.remove(`open`)})}))();
