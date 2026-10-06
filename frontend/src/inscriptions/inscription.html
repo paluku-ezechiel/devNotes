@@ -3,10 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6b27567aa1.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Login</title>
   </head>
+
   <body class="login">
     <form>
+      <div class="form-group group-icon">
+        <label for="username">Nom d'utilisateur</label>
+        <input
+          id="username"
+          type="text"
+          name="username"
+          placeholder="Choisissez un nom d'utilisateur unique"
+        />
+      </div>
       <div class="form-group">
         <label for="email">Email</label>
         <input
@@ -26,18 +40,22 @@
         />
       </div>
 
+      <div class="form-group">
+        <label for="confirmPassword">Confirmation mot de passe</label>
+        <input
+          id="confirmPassword"
+          type="password"
+          name="confirmPassword"
+          placeholder="Confirmer votre mot de passe"
+        />
+      </div>
+
       <div class="form-btn">
         <button class="btn btn-primary" id="btn-primary" type="button">
-          Se connecter
+          S'inscrire
         </button>
       </div>
-      <p class="compte">
-        Vous n'avez pas encore de compte ?
-        <a href="./inscriptions/inscription.html"
-          >Inscrivez-vous gratuitement.</a
-        >
-      </p>
     </form>
-    <script type="module" src="./index.js"></script>
+    <script type="module" src="./inscription.js"></script>
   </body>
 </html>

@@ -12,6 +12,7 @@
   font-weight: 700;
   cursor: pointer;
   transition: box-shadow 0.2s;
+  width: 100%;
   &:hover {
     box-shadow: var(--box-shadow);
     transition: box-shadow 0.2s;
