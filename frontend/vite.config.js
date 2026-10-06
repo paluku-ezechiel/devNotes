@@ -8,7 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/index.html"),
-        inscription: resolve(__dirname, "src/inscriptions/inscription.html"),
+        inscription: resolve(__dirname, "src/inscription/inscription.html"),
         dashboard: resolve(__dirname, "src/dashboard/dashboard.html"),
         form: resolve(__dirname, "src/form/form.html"),
         liste: resolve(__dirname, "src/listes/liste.html"),
