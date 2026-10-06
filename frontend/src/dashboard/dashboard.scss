@@ -53,3 +53,43 @@
     display: none;
   }
 }
+
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  // justify-content: center;
+}
+
+.dashbord-content {
+  width: 31rem;
+  background-color: var(--divider);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.dashbord-content-element {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  p {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .dashboard-content-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+      font-size: 3rem;
+      color: var(--dark);
+    }
+
+    i {
+      color: var(--dark);
+    }
+  }
+}
